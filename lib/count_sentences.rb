@@ -17,5 +17,6 @@ class String
   def count_sentences
     ary = self.split
     ary.delete("")
+    ary.count
   end
 end
